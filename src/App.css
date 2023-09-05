@@ -1,15 +1,50 @@
 #root {
-
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
 }
-
-
 
 .container{
   width: 550px;
   height: 459px;
   margin: 0px auto;
   background: #282D35;
+  color: white;
+  border-radius: 8px;
+}
+nav{
+  width: 550px;
+  height: 91px;
+  background: #21222A;
+}
+.nav-sub-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.nav-title{
+  display: flex;
+  align-items: center;
+  color: #61DAFB;
+}
+
+h1,h3{
+  margin: 0px;
+}
+.logo{
+margin-right: 10px;
+}
+
+main{
+  padding: 20px;
+}
+
+main h1{
+  margin-bottom: 30px;
+}
+ul{
+  padding-left: 20px;
+}
+ul li{
+  line-height: 2rem;
 }

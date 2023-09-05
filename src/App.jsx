@@ -1,16 +1,12 @@
-import { useState } from 'react'
-import reactlogo from '/reactlogo.svg'
+import React from 'react'
 import './App.css'
+import Nav from "./nav"
 
 function App() {
   
   return (
     <div className='container'>
-      <nav>
-        <img src="/reactlogo.svg" alt="" />
-        <h1>ReactFacts</h1>
-        <h3>React Course - Project 1</h3>
-      </nav>
+      <Nav/>
       <main>
         <h1>Fun Facts About React</h1>
         <ul>
